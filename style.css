@@ -1,0 +1,147 @@
+a{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+.html{
+    background-image: url(./Calculator_image.jpg);
+}
+
+#main-heading{
+    margin: 50px auto;
+    font: bold 3rem 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    text-align: center;
+    text-decoration: underline;
+    width:303px;
+    height: 60px;
+    background-color: black;
+    color: #fff;
+}
+
+.container{
+    display:flex;
+    justify-content: center;
+    
+}
+
+.boxes{
+    display:flex;
+    flex-direction:column;
+    justify-content: center;
+    border: 8px black solid;
+    width: 303px;
+    height:96px;
+    margin:0 auto;
+    box-sizing:border-box;
+}
+
+.box{
+    
+    padding:6px;
+    width: 287px;
+    height:40px;
+    background-color: #f4f4f4;    
+    box-sizing:border-box;
+    font: bold 1.7rem 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+
+.special1{
+    width:101px;
+    height:60px;
+    border: 2.5px black solid;
+    background-color: blue;
+    color:#fff;
+    font: bold 2rem 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+
+.special2{
+    width:202px;
+    border: 2.5px black solid;
+    background-color: red;
+    color:#fff;
+    font: bold 1.5rem 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+
+#output{
+    padding: 6px;
+    width: 287px;
+    height:40px;
+    text-align: end;
+    background-color: #f4f4f4;    
+    box-sizing:border-box;
+    font: bold 1.7rem 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+
+.number1{
+    display: flex;
+    width:302px;
+    margin:0 auto;
+    align-items: end;
+  
+}
+
+.number2{
+    display: flex;
+    width:302px;
+    margin:0 auto;
+    align-items: end;
+}
+
+.number3{
+    display: flex;
+    width:302px;
+    margin:0 auto;
+    align-items: end;
+}
+
+.number4{
+    display: flex;
+    width:302px;
+    margin:0 auto;
+}
+
+.operand{
+    width: 33%;
+    height:75px;
+    border: 2px black solid;
+    box-sizing:border-box;
+    border-right:2.5px black solid;
+    font: bold 2rem 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+
+.equal{
+    background-color: black;
+    color:#fff;
+    font-size: 2rem
+}
+
+
+.num1{
+    width: 33.3%;
+    height:75px;
+    border: 2px black solid;
+    border-left: 2.5px black solid;
+    font: bold 2rem 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    box-sizing:border-box;
+}
+
+.num1:hover{
+    background-color: #999;
+}
+
+.num1:active{
+    background-color: #e5e5e5;
+}
+
+.special1:active{
+    background-color: #4f4fff;
+}
+
+.operand:hover{
+    background-color: #999;
+}
+
+.operand:active{
+    background-color: #e5e5e5;
+}
